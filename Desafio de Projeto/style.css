@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #F5F5EF;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #F5F5EF;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.header .banner {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+.menu {
+    background-color: #298262;
+    padding: 10px 20px 50px;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    left: 160px;
+    margin-left: 68%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    }
+
+ul li {
+    position: relative;
+    }
+
+li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    }
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #F5F5EF;
+    background: #298262;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #F5F5EF;
+    min-height: 150px;
+}
+
+.content {
+    background-color: #F5F5EF;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.sobre .text {
+    float: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #298262;
+    color: #F5F5EF;
+    font-size: 15px;
+
+}
+
+.sobre video {
+    float: right;
+    align-items: right;
+    padding: 5px;
+    margin: 0px 0px 50px 30px;
+
+}
+
+.sobre iframe {
+    float: center;
+}
+
+.servicos .table-servicos {
+    float: right;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.servicos .table-servicos th, td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 1px solid transparent ;
+    padding: 5px;
+}
+
+.imagem-servicos {
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.imagem-servicos img {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+    margin: 10px 0px 0px 10px;
+    margin-left: 140px;
+    margin-bottom: 35px;
+    max-width: 300px;
+}
+
+.atendimento .table {
+    float: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #298262;
+    color: #F5F5EF;
+    padding: 50px;
+    margin-bottom: 20px;
+    width: 920px;
+}
+
+.contato .fale-conosco {
+    float: right;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.contato video {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: #298262;
+    color: #F5F5EF;
+    min-height: 150px;
+}
