@@ -1,0 +1,1 @@
+Site de uma clínica médica fictícia, desenvolvido para o Desafio de Projeto do curso HTML Web Developer da DIO.me, utilizando os conteúdos abordados no módulo para implementação de elementos na página.
